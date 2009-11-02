@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>saveActiveFile</string>
+	<key>command</key>
+	<string>MY_PATH=$TM_DIRECTORY/../../../
+cd $MY_PATH
+mvn clickframes:generate | sed -e :a -e '$!N;s/\n/&lt;br\/&gt;/;ta'</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>~@G</string>
+	<key>name</key>
+	<string>Generate from POM</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>text.xml.clickframesxml</string>
+	<key>uuid</key>
+	<string>B03EB109-8372-4C93-B1E0-DFBC2C20458E</string>
+</dict>
+</plist>

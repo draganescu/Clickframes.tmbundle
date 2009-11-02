@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;input type="$1"&gt;
+	&lt;title&gt;$2&lt;/title&gt;
+	${2: &lt;validation type="$3" description="$4" /&gt;}
+&lt;/input&gt;</string>
+	<key>name</key>
+	<string>input</string>
+	<key>scope</key>
+	<string>text.xml.clickframesxml</string>
+	<key>tabTrigger</key>
+	<string>input</string>
+	<key>uuid</key>
+	<string>21B06EB6-59DD-4833-9726-342D42206410</string>
+</dict>
+</plist>

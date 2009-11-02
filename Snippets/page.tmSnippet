@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>&lt;page id="$1"&gt;
+    &lt;title&gt;$2&lt;/title&gt;
+    &lt;description&gt;
+		$3
+    &lt;/description&gt;
+	$0
+&lt;/page&gt;</string>
+	<key>name</key>
+	<string>page</string>
+	<key>scope</key>
+	<string>text.xml.clickframesxml</string>
+	<key>tabTrigger</key>
+	<string>page</string>
+	<key>uuid</key>
+	<string>0BD81D68-47F3-4285-A47D-D292296600A6</string>
+</dict>
+</plist>

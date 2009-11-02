@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Clickframes</string>
+	<key>ordering</key>
+	<array>
+		<string>0BD81D68-47F3-4285-A47D-D292296600A6</string>
+		<string>DF2BB09D-46D7-4189-99D7-990ADBF25720</string>
+		<string>B64672BD-9867-4DAD-BC46-CFF5E46B2177</string>
+		<string>FA0D20F6-047A-4815-B8A3-5E921BEB4A94</string>
+		<string>171DD8B0-2854-46EF-A240-518F4BC42133</string>
+		<string>21B06EB6-59DD-4833-9726-342D42206410</string>
+		<string>B03EB109-8372-4C93-B1E0-DFBC2C20458E</string>
+		<string>78AAEC25-EF5D-48E5-A4FE-CA3666A6CADB</string>
+		<string>35AC1EDA-05F2-4F65-AEC4-3495969E1630</string>
+		<string>83D029A9-DC14-4C60-AC47-891DC744C1F8</string>
+	</array>
+	<key>uuid</key>
+	<string>F053ED6F-8DFB-4C9E-96C9-641357A8DD28</string>
+</dict>
+</plist>
