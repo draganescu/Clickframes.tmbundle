@@ -10,3 +10,5 @@ Faster coding is offered by the framework's plugins which generate stub applicat
 This textmate bundle allows faster adoption of the framework, but in order to use it you need to follow the instructions at:
 
 http://wiki.clickframes.org/Main_Page
+
+In oder for the syntax validation to work you need the clickframes.xsd in the project folder.

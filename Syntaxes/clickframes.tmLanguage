@@ -149,7 +149,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>(&lt;/?)([a-zA-Z0-9:]+)</string>
+			<string>(&lt;)([a-zA-Z0-9:]+)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -160,7 +160,7 @@
 				<key>2</key>
 				<dict>
 					<key>name</key>
-					<string>entity.name.tag.other.html</string>
+					<string>entity.name.tag.other.start.html</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -174,7 +174,43 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.tag.other.html</string>
+			<string>meta.tag.other.start.html</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>include</key>
+					<string>#tag-stuff</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(&lt;/)([a-zA-Z0-9:]+)</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.tag.begin.html</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.tag.other.stop.html</string>
+				</dict>
+			</dict>
+			<key>end</key>
+			<string>(&gt;)</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.tag.end.html</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>meta.tag.other.stop.html</string>
 			<key>patterns</key>
 			<array>
 				<dict>
