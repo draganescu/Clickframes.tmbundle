@@ -1,0 +1,97 @@
+<!--
+  Created by ${TM_FULLNAME} on ${TM_DATE}.
+  Copyright (c) ${TM_YEAR} ${TM_ORGANIZATION_NAME}. All rights reserved.
+-->
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<appspec xmlns="http://www.clickframes.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  defaultPage="page-default">
+  
+  <title></title>
+  <description>
+	
+  </description>
+  
+  <outcome id="outcome-error">
+    <title>Default Error Outcome</title>
+    <description>
+      Should an unexpected operational error occur during any transition,
+      this outcome will define the destination (i.e. error) page.
+    </description>
+    <pageRef>page-error</pageRef>
+  </outcome>
+	
+  <!-- navigation-->	  
+
+  <linkSet id="linkset-appNav" global="true">
+    <title>Navigation</title>
+    <fact>Not logged in the generic menu displays standard public content pages</fact>
+    <link>
+      <title>Home</title>
+      <pageRef>page-default</pageRef>
+    </link>
+  </linkSet>
+  
+  <!-- generic content -->
+  <content id="content-genericerror">
+    
+  </content>
+
+  <!-- generic pages -->
+  <page id="page-default">
+      <title>This is the default error page</title>
+      <description>
+      This page is a catch all error page for situations when the application performs wrong or users to
+      bad actions.
+      </description>
+      <fact>This page displays the message it receives.</fact>
+  </page>  
+
+  <page id="page-error">
+      <title>This is the default error page</title>
+      <description>
+      This page is a catch all error page for situations when the application performs wrong or users to
+      bad actions.
+      </description>
+      <fact>This page displays the message it receives.</fact>
+  </page>
+  
+  <!-- public pages -->
+
+  
+  <!-- private pages -->
+    
+  <!-- functional pages -->
+  
+  
+  
+  <!-- application emails -->
+  <email id="email-contactEmail">
+      <title>Contact form</title>
+      <description>
+          This e-mail is sent when users fill and submit the contact form in the contact page.
+      </description>
+      <emailSubject>A new message from wiki+comments</emailSubject>
+      <emailText>
+      <![CDATA[
+Hello administrator,
+The user: NAME_OF_USER commented:
+
+USER_MESSAGE
+
+You can reply with info to: EMAIL_OF_USER
+
+]]>
+      </emailText>
+      <fact>
+          NAME_OF_USER is the name of the user submitted in the contact form.
+      </fact>
+      <fact>
+          USER_MESSAGE is the message entered in the contact form's textarea.
+      </fact>
+      <fact>
+          EMAIL_OF_USER is the email submitted in the contact form.
+      </fact>
+  </email>
+  
+</appspec>

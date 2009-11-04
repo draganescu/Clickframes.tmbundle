@@ -12,3 +12,4 @@ This textmate bundle allows faster adoption of the framework, but in order to us
 http://wiki.clickframes.org/Main_Page
 
 In oder for the syntax validation to work you need the clickframes.xsd in the project folder.
+The bundle now includes a appspec template that can easier give you a headstart.

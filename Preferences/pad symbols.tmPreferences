@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>pad symbols</string>
+	<key>scope</key>
+	<string>text.xml.clickframesxml.id, entity.name.tag.other.start.html</string>
+	<key>settings</key>
+	<dict>
+		<key>symbolTransformation</key>
+		<string>
+      s/^/ /;  # pad
+   </string>
+	</dict>
+	<key>uuid</key>
+	<string>198D5C66-8C7B-446A-AFBD-809092FA517D</string>
+</dict>
+</plist>
